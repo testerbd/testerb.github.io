@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#particles-js {
+    width: 100%;
+    height: 100vh;
+
+    background-color: #b61924;
+    background-image: url('image/Students-Attending-IPE-Festival-2.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+
+.fly-in-text {
+	list-style: none;
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.fly-in-text li {
+    display: inline-block;
+    color: #000;
+    margin-right: 50px;
+    font-family: open sans, Arial;
+    font-weight: 300;
+    font-size: 1.5cm;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+
+.fly-in-text li:last-child {
+    margin-right: 0;
+}
+
+.fly-in-text.hidden li {
+    opacity: 0;
+}
+
+.fly-in-text.hidden li:nth-child(1) {
+    transform: translatex(-200px) translateY(-200px);
+}
+
+.fly-in-text.hidden li:nth-child(2) {
+    transform: translatex(-100px) translateY(-50px);
+}
+
+.fly-in-text.hidden li:nth-child(3) {
+    transform: translatex(20px) translateY(100px);
+}
+
+.fly-in-text.hidden li:nth-child(4) {
+    transform: translatex(-150px) translateY(-80px);
+}
+
+.fly-in-text.hidden li:nth-child(5) {
+    transform: translatex(-300px) translateY(200px);
+}
+
+.fly-in-text.hidden li:nth-child(6) {
+    transform: translatex(20px) translateY(-20px);
+}
+
+.fly-in-text.hidden li:nth-child(7) {
+    transform: translatex(30px) translateY(200px);
+}
